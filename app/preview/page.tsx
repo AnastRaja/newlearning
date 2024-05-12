@@ -97,7 +97,9 @@ function index() {
 
 <br className='mb-5'/>
 <h2 className=' text-2xl text-black mb-2 font-semibold'>Getting Started is Easy</h2>
-      <p className=' text-base'> Granular access to the editor&apos;s content, changes and events  through a simple API. Works consistently and deterministically with JSON  as both input and output.Granular access to the editor's content, changes and events  through a simple API. Works consistently and deterministically with JSON  as both input and output.Granular access to the editor's content, changes and events  through a simple API. Works consistently and deterministically with JSON  as both input and output.Granular access to the editor's content, changes and events  through a simple API. Works consistently and deterministically with JSON  as both input and output.Granular access to the editor's content, changes and events  through a simple API. Works consistently and deterministically with JSON  as both input and output.</p>
+      <p className=' text-base'> Granular access to the editor&apos;s content, 
+      changes and events  through a simple API. Works consistently and deterministically with JSON  
+      as both input and output.Granular access to the editor&apos;s content, changes and events  through a simple API. Works consistently and deterministically with JSON  as both input and output.Granular access to the editor&apos;s content, changes and events  through a simple API. Works consistently and deterministically with JSON  as both input and output.Granular access to the editor&apos;s content, changes and events  through a simple API. Works consistently and deterministically with JSON  as both input and output.Granular access to the editor&apos;s content, changes and events  through a simple API. Works consistently and deterministically with JSON  as both input and output.</p>
     </div>
   </CardContent>
  
