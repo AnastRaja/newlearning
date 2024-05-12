@@ -1,7 +1,5 @@
 "use client"
-import React, { useState } from 'react';
-import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
+import React from 'react';
 import { SiteHeader } from '@/components/site-header';
 import Pdf from "../../public/Asset/PDF.png"
 import activity from "../../public/Asset/activity-light.png"
@@ -10,43 +8,9 @@ import Image from 'next/image';
 import {Button} from "@/components/ui/button";
 import { EyeOpenIcon } from '@radix-ui/react-icons';
 import Leftmanu from '@/components/Leftmanu';
+import Richtext from "@/components/Richtext"
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
 
-const invoices = [
-  {
-    id: "#1",
-    name: "Multidisciplinary Web Entrepreneur",
-    nameLable: "Chapter Name here",
-    subjct: "Physics",
-    grad: "10th Grade",
-    Assigned: "Purnima Sharma",
-    Created: "12 Mar 2023",
-
-    Status: "Rejected",
-  },
-  {
-    id: "#2",
-    name: "Multidisciplinary Web Entrepreneur",
-    nameLable: "Chapter Name here",
-    subjct: "Physics",
-    grad: "10th Grade",
-    Assigned: "Purnima Sharma",
-    Created: "12 Mar 2023",
-
-    Status: "Approve",
-  },
-  {
-    id: "#3",
-    name: "Multidisciplinary Web Entrepreneur",
-    nameLable: "Chapter Name here",
-    subjct: "Physics",
-    grad: "10th Grade",
-    Assigned: "Purnima Sharma",
-    Created: "12 Mar 2023",
-
-    Status: "Live",
-  },
-];
 
 
 function index() {
@@ -55,7 +19,6 @@ function index() {
    
   };
 
-  const [value, setValue] = useState('');
   return (
     <div>
     
@@ -93,8 +56,7 @@ function index() {
 
 
           <div className=" bg-white shadoew">
-                  {/* <Richtext/> */}
-                  <ReactQuill theme="snow" value={value} onChange={setValue} className=' border-0'/>
+                  <Richtext/>
                 </div>
   </TabsContent>
   <TabsContent value="Edit" className=" pt-5">

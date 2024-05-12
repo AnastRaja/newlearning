@@ -48,7 +48,7 @@ export default function IndexPage() {
                     Forget Password?
                   </a>
                   <span>
-                    Don't have an account?{" "}
+                    Don&apos;t have an account?{" "}
                     <a href="" className="text-[#E36863]">
                       Sign Up
                     </a>
