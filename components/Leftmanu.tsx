@@ -7,7 +7,7 @@ function Leftmanu() {
   return (
    <>
    <div className="logo">
-            <Image src={Logoimg} className=" w-[160px] mx-auto" />
+            <Image src={Logoimg} className=" w-[160px] mx-auto" alt="logo" />
           </div>
 
           <div className="nav_link pt-7">
