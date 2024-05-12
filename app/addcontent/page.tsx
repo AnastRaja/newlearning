@@ -83,7 +83,7 @@ function index() {
     <ul>
       <li className='flex justify-start items-center gap-3 mb-3'>
         <div>
-          <Image src={Pdf} className=" w-16 h-16"/>
+          <Image src={Pdf} className=" w-16 h-16" alt="demo"/>
         </div>
         <div>
           <p className='text-[16px] font-medium text-[#046C88]'>Chapter.pdf</p>
@@ -92,7 +92,7 @@ function index() {
       </li>
       <li className='flex justify-start items-center gap-3 mb-3'>
         <div>
-          <Image src={activity} className=" w-16 h-16"/>
+          <Image src={activity} className=" w-16 h-16" alt="demo"/>
         </div>
         <div>
           <p className='text-[16px] font-medium text-[#046C88]'>Chapter.pdf</p>
@@ -101,7 +101,7 @@ function index() {
       </li>
       <li className='flex justify-start items-center gap-3 mb-3'>
         <div>
-          <Image src={vido} className=" w-16 h-16"/>
+          <Image src={vido} className=" w-16 h-16" alt="demo"/>
         </div>
         <div>
           <p className='text-[16px] font-medium text-[#046C88]'>Chapter.pdf</p>
